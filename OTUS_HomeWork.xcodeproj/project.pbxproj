@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		913115932B3059380019CAC1 /* HomeWorkTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131157C2B3059350019CAC1 /* HomeWorkTasks.swift */; };
+		913115942B3059380019CAC1 /* OTUS_HomeWorkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131157E2B3059360019CAC1 /* OTUS_HomeWorkApp.swift */; };
+		913115952B3059380019CAC1 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913115812B3059360019CAC1 /* ListRow.swift */; };
+		913115962B3059380019CAC1 /* SecondTabModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913115822B3059360019CAC1 /* SecondTabModels.swift */; };
+		913115972B3059380019CAC1 /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913115832B3059360019CAC1 /* SecondTabView.swift */; };
+		913115982B3059380019CAC1 /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913115852B3059360019CAC1 /* FirstTabView.swift */; };
+		913115992B3059380019CAC1 /* ThirdTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913115872B3059360019CAC1 /* ThirdTabView.swift */; };
+		9131159A2B3059380019CAC1 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913115882B3059360019CAC1 /* ModalView.swift */; };
+		9131159B2B3059380019CAC1 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913115892B3059360019CAC1 /* CustomTextView.swift */; };
+		9131159C2B3059380019CAC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131158A2B3059360019CAC1 /* ContentView.swift */; };
+		9131159D2B3059380019CAC1 /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131158C2B3059370019CAC1 /* ViewExt.swift */; };
+		9131159E2B3059380019CAC1 /* UIApplicationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131158D2B3059370019CAC1 /* UIApplicationExt.swift */; };
+		9131159F2B3059380019CAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913115902B3059380019CAC1 /* Assets.xcassets */; };
+		913115A02B3059380019CAC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913115922B3059380019CAC1 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		913115692B30586F0019CAC1 /* OTUS_HomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTUS_HomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9131157C2B3059350019CAC1 /* HomeWorkTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWorkTasks.swift; sourceTree = "<group>"; };
+		9131157E2B3059360019CAC1 /* OTUS_HomeWorkApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTUS_HomeWorkApp.swift; sourceTree = "<group>"; };
+		913115812B3059360019CAC1 /* ListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		913115822B3059360019CAC1 /* SecondTabModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTabModels.swift; sourceTree = "<group>"; };
+		913115832B3059360019CAC1 /* SecondTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
+		913115852B3059360019CAC1 /* FirstTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
+		913115872B3059360019CAC1 /* ThirdTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTabView.swift; sourceTree = "<group>"; };
+		913115882B3059360019CAC1 /* ModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		913115892B3059360019CAC1 /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		9131158A2B3059360019CAC1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9131158C2B3059370019CAC1 /* ViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExt.swift; sourceTree = "<group>"; };
+		9131158D2B3059370019CAC1 /* UIApplicationExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExt.swift; sourceTree = "<group>"; };
+		9131158F2B3059380019CAC1 /* OTUS_HomeWork.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = OTUS_HomeWork.entitlements; sourceTree = "<group>"; };
+		913115902B3059380019CAC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		913115922B3059380019CAC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		913115662B30586F0019CAC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		913115602B30586F0019CAC1 = {
+			isa = PBXGroup;
+			children = (
+				9131156B2B30586F0019CAC1 /* OTUS_HomeWork */,
+				9131156A2B30586F0019CAC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9131156A2B30586F0019CAC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				913115692B30586F0019CAC1 /* OTUS_HomeWork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9131156B2B30586F0019CAC1 /* OTUS_HomeWork */ = {
+			isa = PBXGroup;
+			children = (
+				9131157D2B3059360019CAC1 /* PresentationLayer */,
+				9131158B2B3059370019CAC1 /* Extensions */,
+				9131158E2B3059380019CAC1 /* SupportingFiles */,
+				9131157C2B3059350019CAC1 /* HomeWorkTasks.swift */,
+			);
+			path = OTUS_HomeWork;
+			sourceTree = "<group>";
+		};
+		9131157D2B3059360019CAC1 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				9131157E2B3059360019CAC1 /* OTUS_HomeWorkApp.swift */,
+				9131157F2B3059360019CAC1 /* Screens */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		9131157F2B3059360019CAC1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				913115842B3059360019CAC1 /* FirstTab */,
+				913115802B3059360019CAC1 /* SecondTab */,
+				913115862B3059360019CAC1 /* ThirdTab */,
+				9131158A2B3059360019CAC1 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		913115802B3059360019CAC1 /* SecondTab */ = {
+			isa = PBXGroup;
+			children = (
+				913115812B3059360019CAC1 /* ListRow.swift */,
+				913115822B3059360019CAC1 /* SecondTabModels.swift */,
+				913115832B3059360019CAC1 /* SecondTabView.swift */,
+			);
+			path = SecondTab;
+			sourceTree = "<group>";
+		};
+		913115842B3059360019CAC1 /* FirstTab */ = {
+			isa = PBXGroup;
+			children = (
+				913115852B3059360019CAC1 /* FirstTabView.swift */,
+			);
+			path = FirstTab;
+			sourceTree = "<group>";
+		};
+		913115862B3059360019CAC1 /* ThirdTab */ = {
+			isa = PBXGroup;
+			children = (
+				913115872B3059360019CAC1 /* ThirdTabView.swift */,
+				913115882B3059360019CAC1 /* ModalView.swift */,
+				913115892B3059360019CAC1 /* CustomTextView.swift */,
+			);
+			path = ThirdTab;
+			sourceTree = "<group>";
+		};
+		9131158B2B3059370019CAC1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9131158C2B3059370019CAC1 /* ViewExt.swift */,
+				9131158D2B3059370019CAC1 /* UIApplicationExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9131158E2B3059380019CAC1 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9131158F2B3059380019CAC1 /* OTUS_HomeWork.entitlements */,
+				913115902B3059380019CAC1 /* Assets.xcassets */,
+				913115912B3059380019CAC1 /* Preview Content */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		913115912B3059380019CAC1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				913115922B3059380019CAC1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		913115682B30586F0019CAC1 /* OTUS_HomeWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 913115782B3058760019CAC1 /* Build configuration list for PBXNativeTarget "OTUS_HomeWork" */;
+			buildPhases = (
+				913115652B30586F0019CAC1 /* Sources */,
+				913115662B30586F0019CAC1 /* Frameworks */,
+				913115672B30586F0019CAC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTUS_HomeWork;
+			productName = OTUS_HomeWork;
+			productReference = 913115692B30586F0019CAC1 /* OTUS_HomeWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		913115612B30586F0019CAC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					913115682B30586F0019CAC1 = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 913115642B30586F0019CAC1 /* Build configuration list for PBXProject "OTUS_HomeWork" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 913115602B30586F0019CAC1;
+			productRefGroup = 9131156A2B30586F0019CAC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				913115682B30586F0019CAC1 /* OTUS_HomeWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		913115672B30586F0019CAC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913115A02B3059380019CAC1 /* Preview Assets.xcassets in Resources */,
+				9131159F2B3059380019CAC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		913115652B30586F0019CAC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9131159E2B3059380019CAC1 /* UIApplicationExt.swift in Sources */,
+				913115972B3059380019CAC1 /* SecondTabView.swift in Sources */,
+				913115982B3059380019CAC1 /* FirstTabView.swift in Sources */,
+				9131159B2B3059380019CAC1 /* CustomTextView.swift in Sources */,
+				9131159A2B3059380019CAC1 /* ModalView.swift in Sources */,
+				9131159D2B3059380019CAC1 /* ViewExt.swift in Sources */,
+				913115942B3059380019CAC1 /* OTUS_HomeWorkApp.swift in Sources */,
+				913115992B3059380019CAC1 /* ThirdTabView.swift in Sources */,
+				9131159C2B3059380019CAC1 /* ContentView.swift in Sources */,
+				913115932B3059380019CAC1 /* HomeWorkTasks.swift in Sources */,
+				913115952B3059380019CAC1 /* ListRow.swift in Sources */,
+				913115962B3059380019CAC1 /* SecondTabModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		913115762B3058760019CAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		913115772B3058760019CAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		913115792B3058760019CAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = OTUS_HomeWork/SupportingFiles/OTUS_HomeWork.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTUS_HomeWork/SupportingFiles/Preview Content\"";
+				DEVELOPMENT_TEAM = C3M3BW5J7Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OTUS.OTUS-HomeWork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9131157A2B3058760019CAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = OTUS_HomeWork/SupportingFiles/OTUS_HomeWork.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTUS_HomeWork/SupportingFiles/Preview Content\"";
+				DEVELOPMENT_TEAM = C3M3BW5J7Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OTUS.OTUS-HomeWork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		913115642B30586F0019CAC1 /* Build configuration list for PBXProject "OTUS_HomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913115762B3058760019CAC1 /* Debug */,
+				913115772B3058760019CAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		913115782B3058760019CAC1 /* Build configuration list for PBXNativeTarget "OTUS_HomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913115792B3058760019CAC1 /* Debug */,
+				9131157A2B3058760019CAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 913115612B30586F0019CAC1 /* Project object */;
+}
